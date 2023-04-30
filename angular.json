@@ -25,7 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "src/assets/sass/now-ui-kit.scss",
+              "src/assets/css/demo.css"
             ],
             "scripts": []
           },
@@ -87,7 +89,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

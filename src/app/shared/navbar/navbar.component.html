@@ -1,71 +1,72 @@
 <nav class="navbar navbar-expand-lg bg-primary fixed-top" color-on-scroll="500">
-  <div class="container">
-    <div class="dropdown button-dropdown">
-      <div ngbDropdown>
-        <a class="dropdown-toggle" ngbDropdownToggle>
-            <span class="button-bar"></span>
-            <span class="button-bar"></span>
-            <span class="button-bar"></span>
-        </a>
-         <div ngbDropdownMenu>
-           <a class="dropdown-header">Log out</a>
-           <a class="dropdown-item" href="#">List of Meetings</a>
-           <a class="dropdown-item" href="#">Calendar</a>
-           <a class="dropdown-item" href="#">Reports</a>
-           <a class="dropdown-item" href="#">Signature</a>
-         
-         </div>
-       </div>
-    </div>
-      <div class="navbar-translate">
-          <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim">
-           Booklyne
+    <div class="container">
+      <div class="dropdown button-dropdown">
+        <div ngbDropdown>
+          <a class="dropdown-toggle" ngbDropdownToggle>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
-              <span class="navbar-toggler-bar bar1"></span>
-              <span class="navbar-toggler-bar bar2"></span>
-              <span class="navbar-toggler-bar bar3"></span>
-          </button>
+           <div ngbDropdownMenu>
+             <a class="dropdown-header">Log out</a>
+             <a class="dropdown-item" href="#">List of Meetings</a>
+             <a class="dropdown-item" href="#">Calendar</a>
+             <a class="dropdown-item" href="#">Reports</a>
+             <a class="dropdown-item" href="#">Signature</a>
+           
+           </div>
+         </div>
       </div>
-      <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">
-                
-                    <p>Home</p>
-                </a>
-            </li>
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim">
+             Booklyne
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="examples/login" target="_blank">
-                    
-                    <p>Login</p>
+                  <a class="nav-link" href="#" target="_blank">
+                  
+                      <p>Home</p>
                   </a>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link btn btn-neutral" href="#" target="_blank">
-                     
-                      <p>Sign up</p>
+                <li class="nav-item">
+                    <a class="nav-link" href="examples/login" target="_blank">
+                      
+                      <p>Login</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-neutral" href="#" target="_blank">
+                       
+                        <p>Sign up</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <p class="d-lg-none d-xl-none">Twitter</p>
                   </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="#" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                  <p class="d-lg-none d-xl-none">Twitter</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
-                  <i class="fab fa-facebook-square"></i>
-                  <p class="d-lg-none d-xl-none">Facebook</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
-                  <i class="fab fa-instagram"></i>
-                  <p class="d-lg-none d-xl-none">Instagram</p>
-                </a>
-              </li>
-          </ul>
-      </div>
-  </div>
-</nav>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                    <p class="d-lg-none d-xl-none">Facebook</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <p class="d-lg-none d-xl-none">Instagram</p>
+                  </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  

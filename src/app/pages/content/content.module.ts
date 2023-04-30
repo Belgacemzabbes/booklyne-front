@@ -4,10 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ContentRoutingModule } from './content-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -17,10 +15,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
     NgbModule,
     FormsModule,
-    RouterModule,
     ContentRoutingModule
   ]
 })

@@ -2,8 +2,8 @@ import { Routes } from "@angular/router";
 
 export const FullRoutes: Routes = [
   {
-    path: 'full',
+    path: '',
     loadChildren: () => 
-      import('../../components/appointments/appointments.module').then((m) => m.AppointmentsModule)
+      import('../../components/components.module').then((m) => m.ComponentsModule)
   }
 ]

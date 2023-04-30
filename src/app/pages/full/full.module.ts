@@ -7,7 +7,6 @@ import { FullRoutingModule } from './full-routing.module';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
     FullRoutingModule
   ]
 })
